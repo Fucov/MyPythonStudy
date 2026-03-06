@@ -1,8 +1,7 @@
-
 # 布尔运算符
 # and
-a , b =1 , 2
-print(a ==1 and b == 2)
+a, b = 1, 2
+print(a == 1 and b == 2)
 print(a == 1 and b < 2)
 print(a != 1 and b == 2)
 print(a != 1 and b != 2)

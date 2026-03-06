@@ -1,5 +1,5 @@
-
-# 大小写转换 s= 'hello,python'
+# 大小写转换
+s = 'hello,python'
 
 # 转大写
 a = s.upper()

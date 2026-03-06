@@ -6,7 +6,9 @@
 MyContentMgr实现了特殊方法__enter__(),__exit__()称为该类对象遵守了上下文管理器协议
 这类对象的实例对象，称为上下文管理器
 """
-#在上下文管理器中，无论是否异常都会调用__exit__()自动关闭
+
+
+# 在上下文管理器中，无论是否异常都会调用__exit__()自动关闭
 
 class MyContentMgr(object):
     def __enter__(self):
@@ -23,9 +25,9 @@ class MyContentMgr(object):
     def show(self):
         print('show方法被调用')
 
+
 with MyContentMgr() as file:
     file.show()
-
 
 """print(type(open('a.txt', 'r')))
 with open('a.txt', 'r') as file:

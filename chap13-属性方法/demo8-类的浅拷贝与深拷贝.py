@@ -44,8 +44,8 @@ print(com, com.cpu, com.disk)
 print(com2, com2.cpu, com2.disk)
 print(com3, com3.cpu, com3.disk)  # 第一个不一样，其他两个属性都一样
 
-#3 深拷贝
+# 3 深拷贝
 print('---------------------------')
-com4=copy.deepcopy(com)
+com4 = copy.deepcopy(com)
 print(com, com.cpu, com.disk)
-print(com4, com4.cpu, com4.disk)  #三个都不一样
+print(com4, com4.cpu, com4.disk)  # 三个都不一样

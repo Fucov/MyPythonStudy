@@ -1,6 +1,6 @@
-ans=input('您是会员吗？y/n')
+ans = input('您是会员吗？y/n')
 
-if ans=='y':
+if ans == 'y':
     pass
 else:
     pass

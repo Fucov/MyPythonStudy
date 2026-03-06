@@ -20,7 +20,6 @@ from math import pow  # 导入这个模块某一个函数方法
 print('------------------------------------------')
 print(pow(2, 3.2), type(pow(2, 3)))
 
-
 #  导入自定义模块
 import calc
 
@@ -29,4 +28,5 @@ print(calc.div(10, 4))
 print(dir(calc))
 
 from calc import add
-print(add(10,50))
+
+print(add(10, 50))

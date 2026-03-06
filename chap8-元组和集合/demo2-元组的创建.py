@@ -1,6 +1,5 @@
-
 # 1 使用（）
-t= ('python', 'world', 98)
+t = ('python', 'world', 98)
 print(t)
 print(type(t))
 

@@ -19,7 +19,6 @@ file.write('Python')
 file.close()
 """
 
-
 '''
 # a 以追加模式打开文件，不存在则创造，存在则在末尾追加内容，指针放在文件的开头
 file = open('b.txt', 'a')
@@ -42,9 +41,9 @@ src_file.close()
 + 以读写方式打开，不能单独使用，需要与其他模式一起使用，a+
 """
 str1 = []
-with open('b.txt','r',encoding='utf-8') as w:
+with open('b.txt', 'r', encoding='utf-8') as w:
     str1 = w.readlines()
-with open('b.txt','a',encoding='utf-8') as afile:
-    afile.write(str('12331')+'\n')
+with open('b.txt', 'a', encoding='utf-8') as afile:
+    afile.write(str('12331') + '\n')
     for it in str1:
         afile.write(it)

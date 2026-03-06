@@ -4,5 +4,5 @@
 # 开始奇妙的python之旅吧！！！
 
 with open('logo.png', 'rb') as src:
-    with open('copy2.png','wb') as tar:
+    with open('copy2.png', 'wb') as tar:
         tar.write(src.read())

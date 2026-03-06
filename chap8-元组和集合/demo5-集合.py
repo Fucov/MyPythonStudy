@@ -1,12 +1,11 @@
-
 # 集合是没有value的字典
 
 """第一种创建方式"""
 # 列表
-lst =[i for i in range(1 ,10)]
+lst = [i for i in range(1, 10)]
 
 # 集合set
-s= {i for i in range(1, 10)}
+s = {i for i in range(1, 10)}
 
 # 字典dict
 dic = {a: b for a, b in zip(range(11, 20), range(1, 10))}

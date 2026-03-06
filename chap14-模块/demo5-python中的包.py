@@ -12,13 +12,10 @@
 """
 
 import pageage1.moduleA as a
+
 # 如果没有as 就这样：print(pageage1.moduleA.a)
 print(a.a)  # 第一个a是模块的别名
 
 # import这种方式 只能跟着包名或者模块名
-import pageage1
-import calc
 
 # from...import可以导入包、模块、函数、变量
-from pageage1 import moduleA
-from pageage1.moduleA import a

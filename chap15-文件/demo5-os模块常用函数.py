@@ -6,6 +6,7 @@
 
 # os模块是与操作系统相关的一个模块
 import os
+
 # os.system('notepad.exe') 打开记事本 相当于win+r,运行notepad
 # os.system('calc.exe') 打开计算器
 
@@ -24,7 +25,7 @@ chdir(path):将path设置为当前工作目录
 print(os.getcwd())
 print()
 
-lst=os.listdir('../chap15-文件')
+lst = os.listdir('../chap15-文件')
 print(lst)
 print()
 

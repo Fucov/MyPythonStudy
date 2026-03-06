@@ -19,9 +19,10 @@ abspath(path)只会单纯的获取文件或目录的绝对路径，
 注：传入空字符串时，返回的目录不会加上\
 """
 import os.path
+
 print(os.path.abspath('demo6-os.path常用方法.py'))
 print(os.path.exists('demo6.py'), os.path.exists('demo6-os.path常用方法.py'))
-print(os.path.join('E:\\Python','dmeo19.py'))
+print(os.path.join('E:\\Python', 'dmeo19.py'))
 print(os.path.split('E:\Python\dmeo19.py'))
 print(os.path.splitext('E:\Python\dmeo19.py'))
 print(os.path.basename('E:\Python\dmeo19.py'))

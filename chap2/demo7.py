@@ -1,10 +1,10 @@
-str1='人生苦短'
-str2="人生苦短"
-str3="""人
+str1 = '人生苦短'
+str2 = "人生苦短"
+str3 = """人
 生苦短"""
-str4='''人生
+str4 = '''人生
 苦短'''
-print(str1,type(str1))
-print(str2,type(str2))
-print(str3,type(str3))
-print(str4,type(str4))
+print(str1, type(str1))
+print(str2, type(str2))
+print(str3, type(str3))
+print(str4, type(str4))

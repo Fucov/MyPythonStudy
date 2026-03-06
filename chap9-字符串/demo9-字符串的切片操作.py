@@ -1,6 +1,5 @@
-
 # 字符串是不可变类型 不能进行增删改操作 切片会产生新的对象
-s= 'hello,Python'
+s = 'hello,Python'
 print(s[:5])
 print(s[6:])
 print(s[1:9:2])

@@ -23,5 +23,5 @@ print()
 
 # 4在任意位置添加n多个元素
 lst[1:2] = lst2
-lst[1:] = '2'
+# lst[1:] = '2'
 print(lst)

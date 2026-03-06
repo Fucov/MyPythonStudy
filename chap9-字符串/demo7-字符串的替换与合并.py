@@ -1,5 +1,4 @@
-
-s='python python python'
+s = 'python python python'
 # replace（）
 # 第一个参数是被替换的，第二个是要用到的，第三个是最大替换次数 s= 'hello,python,python,python'
 print(s.replace('python', 'java'))

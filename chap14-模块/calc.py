@@ -3,8 +3,10 @@
 # @File : calc.py
 # 开始奇妙的python之旅吧！！！
 
-def add(a,b):
-    return a+b
-def div(a,b):
-    return a/b
+def add(a, b):
+    return a + b
+
+
+def div(a, b):
+    return a / b
     pass

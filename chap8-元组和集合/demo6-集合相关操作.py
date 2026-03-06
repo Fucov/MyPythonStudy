@@ -1,6 +1,5 @@
-
 # 集合元素判断操作
-s= {i * 10 for i in range(1, 6)}  # 集合是无无序的
+s = {i * 10 for i in range(1, 6)}  # 集合是无无序的
 print(s)
 print(10 in s)
 print(100 in s)

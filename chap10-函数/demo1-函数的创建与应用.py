@@ -1,6 +1,5 @@
-
-def calc(a ,b)  :  # 形参  函数定义中
-    return a/ b
+def calc(a, b):  # 形参  函数定义中
+    return a / b
 
 
 # 实参
@@ -14,4 +13,4 @@ print(calc(a=a, b=b))
 # 前面红色的是关键字参数，后面的是实参
 
 print(calc(b=a, a=b
-))
+           ))
